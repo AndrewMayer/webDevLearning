@@ -1,0 +1,27 @@
+h1 {
+	margin: auto;
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+table {
+	border-spacing: 0px;
+	margin: auto;
+}
+
+td {
+	/* border: 1px black solid; */
+	padding: 40px;
+	margin: 0;
+}
+
+.center {
+	border-left: 1px black solid;
+	border-right: 1px black solid;
+}
+
+.middle {
+	border-top: 1px black solid; 
+	border-bottom: 1px black solid; 
+	
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>S04-EX02</title>
+</head>
+
+<body>
+	<h1>Register</h1>
+<form action="">
+	<label for="firstName" id="firstName">First Name: </label>
+	<input type="text" id="firstName" name="firstName" placeholder="john" required>	
+	<label for="LastName" id="LastName">Last Name: </label>
+	<input type="text" id="LastName" name="LastName" placeholder="Smith" required>	
+	<div>
+		<label for="male">Male</label>
+		<input type="radio"	id="male" name="genderChoice" value="male">
+		<label for="female">Female</label>
+		<input type="radio"	id="female" name="genderChoice" value="female">
+		<label for="other">Other</label>
+		<input type="radio"	id="other" name="genderChoice" value="other">
+	</div>
+	
+	<div>
+		<label for="email">Email:</label>
+		<input id="email" name="email" type="email" placeholder="your email" required>	
+		<label for="password">Password:</label>	
+		<input id="password" name="password" type="password" placeholder="password" minlength="6" maxlength="10" required>
+	</div>
+	
+	<!-- Dropdowns -->
+	<div>
+		<label for="birthday">Birthday</label>
+		<select name="month" id="birthday">
+				<option value="month">Month</option>
+				<option value="jan">Jan</option>
+				<option value="feb">Feb</option>
+				<option value="mar">Mar</option>
+		</select>
+		<select name="day" id="birthday">
+				<option value="day">Day</option>
+				<option value="20">20</option>
+				<option value="21">21</option>
+				<option value="22">22</option>
+		</select>
+		<select name="year" id="birthday">
+				<option value="year">Year</option>
+				<option value="1965">1965</option>
+				<option value="1966">1966</option>
+				<option value="1967">1967</option>
+		</select>
+	</div>
+	<!-- Terms and conditions -->
+	<div>
+		<label for="terms">I agree to the terms and conditions</label>
+		<input type="checkbox" id="terms" name="terms" required>
+	</div>
+	<input type="submit">
+</form>	
+</body>
+</html>

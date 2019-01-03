@@ -1,0 +1,21 @@
+h1 {
+	color: rgba(0, 200, 100, .8);
+	/* border-color: purple;
+	border-width: 5px;
+	border-style: solid; */
+
+	border: 2px solid purple;
+}
+
+h4 {
+	background: rgb(255, 100, 80);
+}
+
+body {
+	background: pink;
+
+	/* background: url(https://i.pinimg.com/originals/fe/22/ae/fe22ae73d75918c5f697e1adebb155fe.png);
+	background-repeat: no-repeat;
+	background-size: cover; */
+
+}
